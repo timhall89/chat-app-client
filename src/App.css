@@ -13,5 +13,31 @@
 .main-grid {
   height: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+}
+
+.message-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin: 20px;
+}
+
+.message-list-wrapper {
+  overflow: auto;
+  height: 100%;
+}
+
+.message-list {
+  display: grid;
+  row-gap: 20px;
+  padding: 20px;
+}
+
+.message {
+  padding: 10px;
+  background: #0d1b3f;
+  color: white;
+  border-radius: 5px;
+  list-style-type: none;
+  width: fit-content;
 }

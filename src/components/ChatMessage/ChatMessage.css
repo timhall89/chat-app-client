@@ -1,0 +1,14 @@
+.message {
+  padding: 10px;
+  background: #0d1b3f;
+  color: white;
+  border-radius: 5px;
+  width: fit-content;
+  justify-self: right;
+  list-style-type: none;
+}
+
+.message.mine {
+  background: #0d3f2a;
+  justify-self: left;
+}
